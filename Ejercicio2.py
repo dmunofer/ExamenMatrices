@@ -5,3 +5,13 @@ def ejercicio2():
         return True
     else:
         return False
+
+
+cont=0
+def ejercicio2_rec():
+    cadena= input('Introduce una cadena de caracteres:')
+    final = True
+    if len(cadena)<3 or cont>3:
+        final = False
+    
+    
