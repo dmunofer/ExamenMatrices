@@ -3,6 +3,7 @@ import Ejercicio1
 import Ejercicio2
 import Ejercicio3
 import tabla
+import codewars
 
 
 matriz = [
@@ -25,3 +26,4 @@ Ejercicio3.pares0_al_10()
 Ejercicio3.del_menos20_al_0_impares()
 Ejercicio3.del_0_al_50_multiples()
 tabla.tabla()
+codewars.string_to_array()
