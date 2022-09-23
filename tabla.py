@@ -7,7 +7,7 @@ def tabla():
         raise Exception('Error. Los argumentos deben ser números enteros entre el 1 y el 9')
 
     for i in range(0,int(a)):
-        print('*')
+        print('')
         for e in range(0,int(b)):
             print('*',end='')
 
