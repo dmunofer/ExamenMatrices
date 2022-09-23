@@ -8,10 +8,10 @@ def ejercicio2():
 
 
 cont=0
+cadena= input('Introduce una cadena de caracteres:')
 def ejercicio2_rec():
-    cadena= input('Introduce una cadena de caracteres:')
     final = True
     if len(cadena)<3 or cont>3:
         final = False
-    
+    return ejercicio2_rec(), final
     
